@@ -53,14 +53,103 @@
           </a>
         </li>
         <li class="breadcrumbs-item">
-          <span class="breadcrumbs-arrow"><img class="breadcrumbs-arrow-icon" src="#" alt="стрелочка в правую сторону"></span>
+          <span class="breadcrumbs-arrow"><img class="breadcrumbs-arrow-icon" src="#"
+              alt="стрелочка в правую сторону"></span>
         </li>
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" >Гостиницы</a>
+          <a class="breadcrumbs-link">Гостиницы</a>
         </li>
       </ul>
-
     </header>
+    <section class="catalog-filter">
+      <h2 class="visually-hidden">Фильтры гостиниц</h2>
+      <form class="catalof-filter-form" action="https://echo.htmlacademy.ru/" method="get">
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-left">
+            <ul class="catalog-filter-left-list">
+              <li class="catalog-filter-left-infra">
+                <fieldset class="catalog-filter-group">
+                  <legend class="catalog-filter-title">Инфраструктура:</legend>
+                  <ul class="catalog-filter-list">
+                    <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="checkbox" name="sweaming-pool" checked>
+                        Бассейн
+                      </label>
+                    </li>
+                    <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="checkbox" name="parking" checked>
+                        Парковка
+                      </label>
+                    </li>
+                    <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="checkbox" name="wifi">
+                        Wi-Fi
+                      </label>
+                    </li>
+                  </ul>
+
+                </fieldset>
+
+              </li>
+              <li class="catalog-filter-left-type">
+                <fieldset class="catalog-filter-group">
+                  <legend class="catalog-filter-title">Тип Жилья</legend>
+                  <ul class="catalog-filter-list">
+                    <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="radio" name="hostel-type" value="hotel" checked>
+                        Гостиница
+                      </label>
+                    </li>
+                    <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="radio" name="hostel-type" value="motel">
+                        Мотель
+                      </label>
+                    </li>
+                    <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="radio" name="hostel-type" value="apartaments">
+                        Апартаменты
+                      </label>
+                    </li>
+                  </ul>
+
+                </fieldset>
+              </li>
+            </ul>
+          </li>
+          <li class="catalog-filter-right">
+            <ul class="catalog-filter-right-list">
+              <li class="catalog-filter-right-price">
+                <fieldset class="catalog-filter-group">
+                  <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+
+
+
+                </fieldset>
+              </li>
+              <li class="catalog-filter-right-button">
+                <ul>
+                  <li>
+                    <button class="catalog-button" type="submit">Применить</button>
+                  </li>
+                  <li>
+                    <button class="catalog-button-reset" type="reset">Сбросить</button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </form>
+
+    </section>
 
   </main>
 
