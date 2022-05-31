@@ -68,9 +68,9 @@ body {
 .main-banner {
   background: url("../images/index/index-background-bottom.svg") bottom, url("../images/index/index-background.jpg") ;
   color: #000000;
+  background-size: 100% auto;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
-  width: 1200px;
   height: 485px;
 
 }
