@@ -135,7 +135,7 @@ line-height: 26px;
 }
 .footer-subscribe{
   background-image: url("../images/index/subsctibe-background.jpg");
-  background-size: 1200px 411px;
+  background-size: 100% auto;
   color: #000000;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
@@ -193,5 +193,24 @@ height: 60px;
 .footer-contact-address{
   text-align: center;
 }
-
-
+.background-house{
+  background-image: url("../images/index/home-icon.svg");
+  width: 75px;
+  height: 72px;
+  color: #000000;
+  background-repeat: no-repeat;
+}
+.background-eat{
+  background-image: url("../images/index/food.svg");
+  width: 74px;
+  height: 70px;
+  color: #000000;
+  background-repeat: no-repeat;
+}
+.background-present{
+  background-image: url("../images/index/present.svg");
+  width: 64px;
+  height: 76px;
+  color: #000000;
+  background-repeat: no-repeat;
+}
