@@ -26,21 +26,16 @@ body {
 }
 
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
   text-decoration: none;
   color: #000000;
-  background-color: #FFFFFF;
   text-align: center;
 }
 
 .navigation-button {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -53,16 +48,11 @@ body {
 }
 
 .navigation-right-icons-number {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
+   font-size: 10px;
   line-height: 13px;
   text-align: center;
   letter-spacing: -0.1em;
   color: #FFFFFF;
-  background-color: #FFFFFF;
-  ;
 }
 
 .main-banner {
@@ -72,7 +62,6 @@ body {
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   height: 485px;
-
 }
 
 .advantages-title {
@@ -133,16 +122,12 @@ body {
 }
 
 .hotel-search-button {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-decoration: none;
   color: #FFFFFF;
   background-color: #756157;
-  text-align: center;
-  align-items: center;
   text-transform: uppercase;
 }
 
@@ -152,16 +137,14 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
-  width: 1200px;
   height: 411px;
-
+  text-align: center;
 }
 
 .footer-subscribe-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -169,15 +152,13 @@ body {
 .footer-subscribe-description {
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .footer-subscribe-button {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   background: #82B3D3;
@@ -187,9 +168,6 @@ body {
 }
 
 .field {
-  font-family: 'PT Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   width: 600px;
@@ -198,13 +176,9 @@ body {
 }
 
 .footer-contact-address-phone {
-  font-family: 'PT Sans', sans-serif;
-  ;
   font-style: normal;
-  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
-  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
@@ -240,7 +214,6 @@ body {
 
 .filter-background {
   background-image: url("../images/catalog/filter-background.jpg");
-
   color: #FFFFFF;
   background-color: #000000;
   background-repeat: no-repeat;
