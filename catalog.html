@@ -10,7 +10,7 @@
 <body>
   <header class="page-header">
     <nav class="navigation">
-      <a href="index.html"><img class="logo" src="images/head-logo.svg" width="139" height="70"
+      <a href="index.html"><img class="logo nav-logo" src="images/head-logo.svg" width="139" height="70"
           alt="Логотип city of Sedona" /></a>
       <ul class="navigation-list">
         <li class="navigation-item">
@@ -26,12 +26,12 @@
       <ul class="navigation-list navigation-right">
         <li class="navigation-item">
           <ul class="navigation-list navigation-right-icons">
-            <li class="navigation-item">
+            <li class="navigation-item navigation-search-button">
               <a class="navigation-link" href="#">
                 <span class="visually-hidden"> Поиск </span>
               </a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item navigation-favourite-button">
               <a class="navigation-link" href="#">
                 <span class="visually-hidden"> Избранное </span>
               </a>
@@ -72,8 +72,8 @@
 
         <div class="catalog-filter">
           <h2 class="visually-hidden">Фильтры гостиниц</h2>
-          <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="catalog-filter-group">
+          <form class="catalog-filter-form catalog-filter-container" action="https://echo.htmlacademy.ru/" method="get">
+            <fieldset class="catalog-filter-group catalog-filter-addition">
               <legend class="catalog-filter-title">Инфраструктура:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
@@ -137,7 +137,7 @@
       <section class="catalog-hotel">
         <h2 class="visually-hidden">Сортировка отелей</h2>
         <ul class="catalog-sort-list">
-          <li class="catalog-sort-item">
+          <li class="catalog-sort-item sort-description">
             <h2 class="catalog-sort-description"> Найдено гостиниц: 38</h2>
           </li>
           <li class="catalog-select-item">
@@ -147,7 +147,7 @@
               <option value="expensive">Сначала дорогое</option>
             </select>
           </li>
-          <li class="catalog-sort-item">
+          <li class="catalog-sort-item sort-icon-box">
             <ul class="catalog-sort-icon">
               <li class="catalog-sort-icon-item ">
                 <a class="button-sort sort-icon-link" href="#">
@@ -374,7 +374,7 @@
             </ul>
           </li>
           <li class="pagination-count">
-            <p class="pagination-count-description">Гостиниц на странице</p>
+            <p class="pagination-count-description">Гостиниц на странице:</p>
             <select class="pagination-count-select" aria-label="Количество гостиниц на странице">
               <option value="4">4</option>
               <option value="10">10</option>
@@ -403,34 +403,36 @@
   </main>
 
   <footer class="page-footer">
-    <h2 class="visually-hidden">Ссылки на социальные сети</h2>
-    <ul class="footer-social-list">
-      <li class="footer-social-item">
-        <a class="footer-social-link-vk" href="https://vk.com/htmlacademy">
-          <img class="logo-vk" src="images/icon-vk.svg" width="24" height="14" alt="Логотип VK">
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="footer-social-link-tg" href="https://t.me/htmlacademy">
-          <img class="logo-tg" src="images/icon-tg.svg" width="18" height="15" alt="Логотип Telegram">
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="footer-social-link-youtube" href="https://www.youtube.com/user/htmlacademyru">
-          <img class="logo-youtube" src="images/icon-youtube.svg" width="22" height="17" alt="Логотип YouTube">
-        </a>
-      </li>
-    </ul>
+    <div class="page-footer-container">
 
-    <address class="footer-contact-address">
-      <a class="footer-contact-address-phone" href="tel:+78128121212">+7&nbsp;(812)&nbsp;812-12-12</a>
-      <span class="visually-hidden">Номер телефона для связи</span>
-    </address>
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <h2 class="visually-hidden">Ссылки на социальные сети</h2>
+          <a class="footer-social-link-vk" href="https://vk.com/htmlacademy">
+            <img class="logo-vk" src="images/icon-vk.svg" width="24" height="14" alt="Логотип VK">
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-social-link-tg" href="https://t.me/htmlacademy">
+            <img class="logo-tg" src="images/icon-tg.svg" width="18" height="15" alt="Логотип Telegram">
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-social-link-youtube" href="https://www.youtube.com/user/htmlacademyru">
+            <img class="logo-youtube" src="images/icon-youtube.svg" width="22" height="17" alt="Логотип YouTube">
+          </a>
+        </li>
+      </ul>
 
-    <a class="low-footer-link-htmlacademy" href="https://htmlacademy.ru/">
-      <img class="logo-academy" src="images/HTML-Academy.svg" width="115" height="33" alt="Логотип HTML Academy">
-    </a>
+      <address class="footer-contact-address">
+        <a class="footer-contact-address-phone" href="tel:+78128121212">+7&nbsp;(812)&nbsp;812-12-12</a>
+        <span class="visually-hidden">Номер телефона для связи</span>
+      </address>
 
+      <a class="low-footer-link-htmlacademy" href="https://htmlacademy.ru/">
+        <img class="logo-academy" src="images/HTML-Academy.svg" width="115" height="33" alt="Логотип HTML Academy">
+      </a>
+    </div>
   </footer>
 
 </body>

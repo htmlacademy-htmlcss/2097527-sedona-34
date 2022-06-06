@@ -32,10 +32,12 @@ body {
   color: #000000;
   background-color: #FFFFFF;
 }
-.visually-hidden{
 
-  margin:0;
+.visually-hidden {
+
+  margin: 0;
 }
+
 .navigation {
   display: flex;
   width: 1200px;
@@ -46,14 +48,15 @@ body {
   display: block;
   width: 139px;
   margin-right: 30px;
-  }
+}
 
 .navigation-list {
   width: 480px;
   margin: 0;
   padding: 0;
 }
-.navigation-right{
+
+.navigation-right {
   max-width: 300px;
   margin-left: auto;
 }
@@ -120,7 +123,7 @@ body {
   text-align: center;
 }
 
-.advantages-list{
+.advantages-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -129,7 +132,7 @@ body {
 
 
 
-.advantages-item-with-img-list{
+.advantages-item-with-img-list {
   margin: 0;
   padding: 0;
 }
@@ -142,12 +145,14 @@ body {
   text-transform: uppercase;
   margin: 0;
 }
-.advantages-real-city{
+
+.advantages-real-city {
   width: 400px;
   height: 384px;
   background: #82B3D3;
 }
-.advantages-item-first-cause{
+
+.advantages-item-first-cause {
   color: #FFFFFF;
   text-align: center;
   width: 1200px;
@@ -155,12 +160,14 @@ body {
   background-position: right;
   background-repeat: no-repeat;
 }
-.advantages-devil-bridge{
+
+.advantages-devil-bridge {
   width: 400px;
   height: 384px;
   background: #82B3D3;
   margin-left: 800px;
 }
+
 .advantages-item-second-cause {
   color: #FFFFFF;
   text-align: center;
@@ -168,20 +175,23 @@ body {
   background-image: url("/images/index/advantages-2.jpg");
   background-position: left;
   background-repeat: no-repeat;
-  }
+}
 
 .advantages-item {
   text-align: center;
   width: 400px;
   height: 384px;
 }
-.advantages-real-city-container{
-display: flex;
-flex-wrap: wrap;
+
+.advantages-real-city-container {
+  display: flex;
+  flex-wrap: wrap;
 }
-.advantages-item-icon{
-  margin:0 auto;
+
+.advantages-item-icon {
+  margin: 0 auto;
 }
+
 .advantages-background-grey {
   background: rgba(131, 179, 211, 0.12);
 }
@@ -259,6 +269,7 @@ flex-wrap: wrap;
   height: 60px;
   background: #F2F2F2;
 }
+
 .page-footer-container {
   display: flex;
   width: 1060px;
@@ -274,13 +285,14 @@ flex-wrap: wrap;
   text-decoration: none;
   color: #000000;
 }
-.footer-social-list{
+
+.footer-social-list {
   width: 142px;
 }
 
-.logo-academy{
+.logo-academy {
   display: block;
-width: 115px;
+  width: 115px;
 }
 
 .footer-contact-address {
@@ -317,12 +329,25 @@ width: 115px;
   color: #FFFFFF;
   background-color: #000000;
   background-repeat: no-repeat;
+  width: 1200px;
+  height: 403px;
+}
+
+.inner-header {
+  width: 1060px;
+  margin: 0 auto;
+
 }
 
 .inner-header-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  margin: 0;
+}
+
+.breadcrumbs {
+  margin: 0;
 }
 
 .breadcrumbs-link {
@@ -333,11 +358,21 @@ width: 115px;
   text-align: center;
 }
 
+.catalog-filter {
+  width: 1060px;
+  margin: 0 auto;
+}
+
 .catalog-filter-title {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+}
+
+.catalog-filter-container {
+  display: flex;
+
 }
 
 .catalog-button {
@@ -361,6 +396,18 @@ width: 115px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.catalog-sort-list {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  width: 1057px;
+
+}
+
+.sort-description {
+  margin-right: 191px;
 }
 
 .select-control {
@@ -423,6 +470,25 @@ width: 115px;
   border-radius: 4px;
 }
 
+.pagination {
+  padding: 0;
+  margin: 0 auto;
+  width: 1056px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-count {
+  width: 386px;
+  height: 49px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-count-select {
+  width: 160px;
+}
+
 .pagination-pages-item {
   background-color: #82B3D3;
   width: 60px;
@@ -448,6 +514,25 @@ width: 115px;
 .footer-subscribe-title-color,
 .footer-subscribe-description-color {
   color: #000000;
+}
+
+.sort-icon-box {
+  width: 160px;
+  margin-left: auto;
+}
+
+.product-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1056px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.product-card-list {
+  width: 340px;
+
 }
 
 .catalog-sort-icon-table {
@@ -479,6 +564,7 @@ width: 115px;
   border: 2px solid #000000;
   border-radius: 4px;
 }
+
 
 .navigation-search-button {
   background-image: url("../images/search.svg");
