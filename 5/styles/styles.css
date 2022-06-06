@@ -156,7 +156,7 @@ body {
   color: #FFFFFF;
   text-align: center;
   width: 1200px;
-  background-image: url("/images/index/advantages-1.jpg");
+  background-image: url("../images/index/advantages-1.jpg");
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -172,7 +172,7 @@ body {
   color: #FFFFFF;
   text-align: center;
   width: 1200px;
-  background-image: url("/images/index/advantages-2.jpg");
+  background-image: url("../images/index/advantages-2.jpg");
   background-position: left;
   background-repeat: no-repeat;
 }
