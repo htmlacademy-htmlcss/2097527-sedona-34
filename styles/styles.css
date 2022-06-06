@@ -14,7 +14,8 @@
   src: url("fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
-html{
+
+html {
   height: 100%;
 }
 
@@ -30,6 +31,31 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #FFFFFF;
+}
+.visually-hidden{
+
+  margin:0;
+}
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  display: block;
+  width: 139px;
+  margin-right: 30px;
+  }
+
+.navigation-list {
+  width: 480px;
+  margin: 0;
+  padding: 0;
+}
+.navigation-right{
+  max-width: 300px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -61,8 +87,14 @@ body {
   letter-spacing: -0.1em;
   color: #FFFFFF;
 }
-.main-container{
+
+.main-container {
   flex-grow: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-banner {
@@ -88,25 +120,68 @@ body {
   text-align: center;
 }
 
+.advantages-list{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.advantages-item-with-img-list{
+  margin: 0;
+  padding: 0;
+}
+
 .advantages-item-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
 }
-
-.advantages-item-first-cause,
-.advantages-item-second-cause {
+.advantages-real-city{
+  width: 400px;
+  height: 384px;
   background: #82B3D3;
+}
+.advantages-item-first-cause{
   color: #FFFFFF;
   text-align: center;
+  width: 1200px;
+  background-image: url("/images/index/advantages-1.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
 }
+.advantages-devil-bridge{
+  width: 400px;
+  height: 384px;
+  background: #82B3D3;
+  margin-left: 800px;
+}
+.advantages-item-second-cause {
+  color: #FFFFFF;
+  text-align: center;
+  width: 1200px;
+  background-image: url("/images/index/advantages-2.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  }
 
 .advantages-item {
   text-align: center;
+  width: 400px;
+  height: 384px;
 }
-
+.advantages-real-city-container{
+display: flex;
+flex-wrap: wrap;
+}
+.advantages-item-icon{
+  margin:0 auto;
+}
 .advantages-background-grey {
   background: rgba(131, 179, 211, 0.12);
 }
@@ -184,6 +259,12 @@ body {
   height: 60px;
   background: #F2F2F2;
 }
+.page-footer-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
 
 .footer-contact-address-phone {
   font-style: normal;
@@ -193,9 +274,18 @@ body {
   text-decoration: none;
   color: #000000;
 }
+.footer-social-list{
+  width: 142px;
+}
+
+.logo-academy{
+  display: block;
+width: 115px;
+}
 
 .footer-contact-address {
   text-align: center;
+  width: 350px;
 }
 
 .background-house {
@@ -389,13 +479,15 @@ body {
   border: 2px solid #000000;
   border-radius: 4px;
 }
-.navigation-search-button{
+
+.navigation-search-button {
   background-image: url("../images/search.svg");
   width: 18px;
   height: 18px;
   background-repeat: no-repeat;
 }
-.navigation-favourite-button{
+
+.navigation-favourite-button {
   background-image: url("../images/favorite.svg");
   width: 18px;
   height: 18px;
