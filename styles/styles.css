@@ -769,12 +769,15 @@ body {
 }
 
 .pagination-pages-link {
+display: block;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   color: #FFFFFF;
+  padding: 12px 25px;
+
 }
 
 .catalog-footer-subscribe {
