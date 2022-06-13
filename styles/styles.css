@@ -470,7 +470,7 @@ align-items: center;
   background-color: #000000;
   background-repeat: no-repeat;
   width: 1200px;
-
+margin-bottom: 5px;
 }
 
 .inner-header {
@@ -587,12 +587,16 @@ border: 0;
   padding: 0;
 border: 0;
 }
+.catalog-hotel{
+padding-top: 50px;
+}
 
 .catalog-sort-description {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .catalog-sort-list {
@@ -600,9 +604,21 @@ border: 0;
   margin: 0 auto;
   display: flex;
   width: 1057px;
+  list-style-type: none;
+margin-bottom: 56px;
+}
+.catalog-sort-icon{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  gap: 8px;
 
 }
-
+.catalog-sort-icon-item{
+width:48px;
+height: 48px;
+}
 .sort-description {
   margin-right: 191px;
 }
@@ -624,12 +640,15 @@ border: 0;
 }
 
 .card-button-link {
+  display: block;
   text-decoration: none;
   text-transform: uppercase;
   color: #FFFFFF;
+padding: 9px 15px 8px 15px;
 }
 
 .card-buttons-item {
+
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -638,7 +657,10 @@ border: 0;
   height: 37px;
   background-color: #756157;
   border-radius: 4px;
-
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .card-button-favourite {
@@ -665,6 +687,9 @@ border: 0;
   width: 140px;
   height: 37px;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination {
@@ -673,17 +698,26 @@ border: 0;
   width: 1056px;
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 20px;
 }
 
 .pagination-count {
-  width: 386px;
-  height: 49px;
+  min-width: 386px;
+
   display: flex;
   justify-content: space-between;
+
+}
+.pagination-count-description{
+  margin-top:20px;
 }
 
 .pagination-count-select {
   width: 160px;
+  height: 49px;
+  margin:auto 0;
+
 }
 
 .pagination-pages-item {
@@ -691,7 +725,16 @@ border: 0;
   width: 60px;
   height: 60px;
   border-radius: 4px;
-  text-align: center;
+justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+.pagination-pages-list{
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  padding: 0;
 }
 
 .pagination-pages-link {
@@ -706,6 +749,7 @@ border: 0;
 .catalog-footer-subscribe {
   color: #000000;
   text-align: center;
+  padding-top:94px;
 }
 
 .footer-subscribe-title-color,
@@ -725,17 +769,45 @@ border: 0;
   justify-content: space-between;
   padding: 0;
   margin: 0 auto;
+  list-style-type: none;
+  margin-bottom: 96px;
 }
 
 .product-card-list {
   width: 340px;
+padding-top: 20px;
+}
+.card-hotel-price{
+  list-style-type: none;
+  padding: 0;
+}
+.card-buttons-list{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.card-buttons-description{
+
+margin: 0;
+  width: 110px;
 
 }
-
+.card-rate{
+  list-style-type: none;
+  padding: 0;
+}
+.card-rate-stars-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 6px;
+}
 .catalog-sort-icon-table {
   background-image: url("../images/catalog/icon-table.svg");
-  width: 48px;
-  height: 48px;
+  width: 44px;
+height: 44px;
+
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid #000000;
@@ -744,8 +816,8 @@ border: 0;
 
 .catalog-sort-icon-slide {
   background-image: url("../images/catalog/icon-slideshow.svg");
-  width: 48px;
-  height: 48px;
+  width: 44px;
+height: 44px;
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid #000000;
@@ -754,8 +826,8 @@ border: 0;
 
 .catalog-sort-icon-list {
   background-image: url("../images/catalog/icon-list.svg");
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid #000000;
