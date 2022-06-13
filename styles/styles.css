@@ -162,21 +162,31 @@ margin-bottom: 19px;
   background-size: 100% auto;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
-  height: 485px;
-}
+  min-height: 485px;
+margin-bottom: 63px;
 
+}
+.main-banner-img-text{
+  display: block;
+  padding-top: 51px;
+  margin:0 auto;
+}
 .advantages-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  margin:0;
+  margin-bottom: 31px;
 }
 
 .advantages-description {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin:0;
+  margin-bottom: 91px;
 }
 
 .advantages-list {
@@ -184,6 +194,8 @@ margin-bottom: 19px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 91px;
 }
 
 
@@ -191,6 +203,7 @@ margin-bottom: 19px;
 .advantages-item-with-img-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .advantages-item-title {
@@ -199,44 +212,78 @@ margin-bottom: 19px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 0;
+margin:0;
+  margin-bottom: 30px;
 }
-
+.advantages-item-number{
+  display: block;
+  margin-bottom: 30px;
+}
 .advantages-real-city {
-  width: 400px;
-  height: 384px;
+  max-width: 230px;
+padding-left:85px;
+margin-bottom: 92px;
   background: #82B3D3;
+
 }
 
 .advantages-item-first-cause {
+  display: block;
   color: #FFFFFF;
   text-align: center;
   width: 1200px;
+  background-color: #82B3D3;
   background-image: url("../images/index/advantages-1.jpg");
   background-position: right;
   background-repeat: no-repeat;
+padding-top: 92px;
+
+}
+.advantages-item-description{
+margin:0;
+
+}
+.advantages-item-with-icon{
+padding-top: 80px;
+padding-bottom: 81px;
+}
+
+.advantages-item-icon {
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .advantages-devil-bridge {
-  width: 400px;
-  height: 384px;
-  background: #82B3D3;
-  margin-left: 800px;
+  display: block;
+  max-width: 230px;
+
+    margin-left: 800px;
+  padding-left:85px;
+padding-bottom: 92px;
+background-color: #82B3D3;
+
 }
 
 .advantages-item-second-cause {
+  display: block;
   color: #FFFFFF;
   text-align: center;
   width: 1200px;
+  background-color: #82B3D3;
   background-image: url("../images/index/advantages-2.jpg");
-  background-position: left;
+
   background-repeat: no-repeat;
+  padding-top: 92px;
+}
+.advantages-item-with-number{
+  padding-top:102px;
+  padding-bottom: 102px;
 }
 
 .advantages-item {
   text-align: center;
   width: 400px;
-  height: 384px;
+
 }
 
 .advantages-real-city-container {
@@ -244,9 +291,6 @@ margin-bottom: 19px;
   flex-wrap: wrap;
 }
 
-.advantages-item-icon {
-  margin: 0 auto;
-}
 
 .advantages-background-grey {
   background: rgba(131, 179, 211, 0.12);
@@ -265,14 +309,20 @@ margin-bottom: 19px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin:0;
+  margin-bottom: 29px;
 }
 
 .hotel-search-description {
   font-size: 22px;
   line-height: 26px;
+  margin:0;
+  margin-bottom: 56px;
+
 }
 
 .hotel-search-button {
+  display: block;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -280,6 +330,10 @@ margin-bottom: 19px;
   color: #FFFFFF;
   background-color: #756157;
   text-transform: uppercase;
+  width: 544px;
+padding: 12px 15px 12px 15px;
+margin:0 auto;
+margin-bottom: 93px;
 }
 
 .footer-subscribe {
@@ -288,8 +342,9 @@ margin-bottom: 19px;
   color: #000000;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
-  height: 411px;
+
   text-align: center;
+  padding-top: 94px;
 }
 
 .footer-subscribe-title {
@@ -298,14 +353,21 @@ margin-bottom: 19px;
   line-height: 36px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin:0;
+  margin-bottom: 29px;
 }
 
 .footer-subscribe-description {
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
+  margin:0;
+  margin-bottom: 46px;
 }
-
+.footer-subscribe-form{
+  display: flex;
+ justify-content: center;
+}
 .footer-subscribe-button {
   font-weight: 700;
   font-size: 20px;
@@ -316,14 +378,21 @@ margin-bottom: 19px;
   border: none;
   width: 200px;
   height: 60px;
+  padding: 0;
+  border-radius: 0 10px 10px 0;
+
 }
 
 .field {
   font-size: 18px;
   line-height: 21px;
   width: 600px;
-  height: 60px;
+  min-height: 60px;
   background: #F2F2F2;
+  padding: 0 0 0 22px;
+  border:0;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 94px;
 }
 
 .page-footer-container {
@@ -331,6 +400,8 @@ margin-bottom: 19px;
   width: 1060px;
   margin: 0 auto;
   justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .footer-contact-address-phone {
@@ -344,6 +415,19 @@ margin-bottom: 19px;
 
 .footer-social-list {
   width: 142px;
+  margin:0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.footer-social-item{
+min-width: 45px;
+min-height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .logo-academy {
