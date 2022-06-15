@@ -74,17 +74,20 @@ body {
 
 }
 
+.navigation-link-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .navigation-pages {
   width: 480px;
   padding-left: 17px;
-  padding-top: 20px;
+
+  gap: 0 34px;
 
 }
 
-.navigation-pages .navigation-link {
-  margin-right: 34px;
-  margin-bottom: 19px;
-}
+
 
 .navigation-user {
   max-width: 300px;
@@ -112,7 +115,7 @@ body {
   text-decoration: none;
   color: #000000;
   text-align: center;
-  display: block;
+
 }
 
 .navigation-button {
@@ -133,7 +136,7 @@ body {
 
 .button {
   font-family: "PT Sans", sans-serif;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .navigation-search-button {
