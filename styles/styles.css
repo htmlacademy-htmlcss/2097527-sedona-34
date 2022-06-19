@@ -646,7 +646,7 @@ body {
   display: flex;
   width: 1057px;
   list-style-type: none;
-  margin-bottom: 56px;
+  margin-bottom: 76px;
 }
 
 .catalog-sort-icon {
@@ -682,8 +682,15 @@ body {
   width: 290px;
 }
 
+.card-img {
+  margin-bottom: 16px;
+}
+
 .card-link {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .card-title {
@@ -691,6 +698,11 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  margin: 0;
+}
+
+.card-hotel-price-item {
+  width: 140px;
 }
 
 .card-button-link {
@@ -738,7 +750,7 @@ body {
   background: #F2F2F2;
   text-align: center;
   width: 140px;
-  height: 37px;
+  padding: 9px 0 8px 0;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -821,24 +833,28 @@ body {
 }
 
 .product-card {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1056px;
-  justify-content: space-between;
+  width: 1016px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0 auto 116px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
   list-style-type: none;
-  margin-bottom: 96px;
+  gap: 40px 58px;
 }
 
-.product-card-list {
-  width: 340px;
-  padding-top: 20px;
+.card-hotel-description,
+.card-price-description {
+  margin: 0;
 }
 
 .card-hotel-price {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 16px;
 }
 
 .card-buttons-list {
@@ -846,6 +862,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 16px;
 }
 
 .card-buttons-description {
@@ -858,6 +875,17 @@ body {
 .card-rate {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-rate-count {
+  margin: 0;
+}
+
+.card-rate-item {
+  display: flex;
+  align-items: center;
 }
 
 .card-rate-stars-list {
