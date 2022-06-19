@@ -664,12 +664,22 @@ body {
 }
 
 .sort-description {
-  margin-right: 191px;
+
+  margin: auto 191px auto 0;
 }
 
 .select-control {
   font-size: 18px;
   line-height: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 94px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 290px;
 }
 
 .card-link {
