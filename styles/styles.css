@@ -672,7 +672,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 14px 20px;
