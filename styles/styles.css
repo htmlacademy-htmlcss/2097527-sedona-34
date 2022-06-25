@@ -195,6 +195,7 @@ body {
 }
 
 .advantages-title {
+
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -239,8 +240,9 @@ body {
   margin-bottom: 30px;
 }
 
-.advantages-item-number {
+.advantages-item-number {}
 
+.advantages-item-number-block {
   margin-bottom: 30px;
 }
 
@@ -272,12 +274,22 @@ body {
 
 .advantages-item-with-icon {
   padding-top: 80px;
-  padding-bottom: 81px;
+  padding-bottom: 80px;
+}
+
+.advantages-item-with-icon-present {
+  padding-top: 78px;
+  padding-bottom: 80px;
 }
 
 .advantages-item-icon {
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.advantages-item-icon-present {
+  margin: 0 auto;
+  margin-bottom: 28px;
 }
 
 .advantages-devil-bridge {
@@ -416,7 +428,7 @@ body {
 .field {
   font-size: 18px;
   line-height: 21px;
-  width: 600px;
+  width: 578px;
   min-height: 60px;
   background: #F2F2F2;
   padding: 0 0 0 22px;
@@ -430,7 +442,7 @@ body {
   width: 1060px;
   margin: 0 auto;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 45px;
   padding-bottom: 30px;
 }
 
@@ -453,7 +465,7 @@ body {
 }
 
 .footer-social-item {
-  min-width: 45px;
+  min-width: 47px;
   min-height: 40px;
   display: flex;
   justify-content: center;
@@ -461,13 +473,14 @@ body {
 }
 
 .logo-academy {
-
+  margin-top: 3px;
   width: 115px;
 }
 
 .footer-contact-address {
   text-align: center;
   width: 350px;
+  display: block;
 }
 
 .background-house {
