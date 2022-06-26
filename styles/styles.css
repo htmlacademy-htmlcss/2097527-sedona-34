@@ -166,16 +166,18 @@ body {
   color: #FFFFFF;
   position: absolute;
 }
-.navigation-link-current-box{
-position: relative;
+
+.navigation-link-current-box {
+  position: relative;
 }
-.navigation-link-current:after{
-content: '';
-position:absolute;
-width: 100%;
-bottom: 0;
-height: 2px;
-background-color: #756257;
+
+.navigation-link-current:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 2px;
+  background-color: #756257;
 }
 
 .main-container {
@@ -489,13 +491,16 @@ background-color: #756257;
   width: 115px;
   fill: #000000;
 }
-.logo-academy:hover{
+
+.logo-academy:hover {
   fill: #756157;
 }
-.logo-academy:focus{
+
+.logo-academy:focus {
   fill: #756157;
 }
-.logo-academy:active{
+
+.logo-academy:active {
   fill: rgba(117, 97, 87, 0.3);
 }
 
@@ -583,6 +588,30 @@ background-color: #756257;
   margin-right: 10px;
 }
 
+.breadcrumbs-icon-style {
+  fill: #FFFFFF;
+}
+
+.breadcrumbs-icon-style:hover {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-icon-style:active {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumbs-item-style {
+  color: #FFFFFF;
+}
+
+.breadcrumbs-item-style:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-item-style:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .control-input {
 
   margin-right: 18px;
@@ -661,6 +690,7 @@ background-color: #756257;
   background: #82B3D3;
   padding: 14px 15px 14px 15px;
   border: 0;
+  border-radius: 4px;
 }
 
 .catalog-button-text {
@@ -733,6 +763,19 @@ background-color: #756257;
   border-radius: 4px;
   width: 290px;
 
+}
+
+.select-control:hover {
+  border-color: #68A2CA;
+}
+
+.select-control:focus {
+
+  border-color: #68A2CA;
+}
+
+.select-control:active {
+  border-color: #3F5E72;
 }
 
 .card-img {
@@ -841,10 +884,11 @@ background-color: #756257;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 
-  padding: 14px 20px;
+
 }
 
 .pagination-pages-item {
+
   background-color: #82B3D3;
   width: 60px;
   height: 60px;
@@ -863,14 +907,19 @@ background-color: #756257;
 }
 
 .pagination-pages-link {
-
+  display: block;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding: 12px 25px;
+  width: 60px;
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 4px;
+
+
 
 }
 
@@ -984,75 +1033,110 @@ background-color: #756257;
   border-radius: 4px;
 }
 
-.button-brown{
-  background: #756157;
+.catalog-sort-icon-style {
+  border-color: #E5E5E5;
 }
-.button-brown:hover{
+
+.catalog-sort-icon-style:hover {
+  border-color: black;
+}
+
+.catalog-sort-icon-style:focus {
+
+
+  border-color: #68A2CA;
+}
+
+.catalog-sort-icon-style:active {
+  border-color: black;
+}
+
+.button-brown {
+  background: #756157;
+  border-radius: 4px;
+}
+
+.button-brown:hover {
   background: #615048;
 }
-.button-brown:focus{
+
+.button-brown:focus {
   background: #615048;
 }
-.button-brown:active{
+
+.button-brown:active {
   background: #756157;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.button-blue{
+.button-blue {
   background: #82B3D3;
+
 }
-.button-blue:hover{
+
+.button-blue:hover {
   background: #68A2CA;
 }
-.button-blue:focus{
+
+.button-blue:focus {
   background: #68A2CA;
 }
-.button-blue:active{
+
+.button-blue:active {
   background: #82B3D3;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.button-green{
+.button-green {
   background: #7DB54F;
+  border-radius: 4px;
 }
-.button-green:hover{
+
+.button-green:hover {
   background: #6C9E42;
 }
-.button-green:focus{
+
+.button-green:focus {
   background: #6C9E42;
 }
-.button-green:active{
+
+.button-green:active {
   background: #7DB54F;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.logo-vk{
-  fill:#83B3D3;
+.logo-vk {
+  fill: #83B3D3;
 }
 
-.logo-tg{
-  fill:#83B3D3;
+.logo-tg {
+  fill: #83B3D3;
 }
 
-.logo-youtube{
-  fill:#83B3D3;
+.logo-youtube {
+  fill: #83B3D3;
 }
 
-.social-icon-display:hover{
+.social-icon-display:hover {
   fill: #68A2CA;
 }
-.social-icon-display:focus{
+
+.social-icon-display:focus {
   fill: #68A2CA;
 }
-.social-icon-display:active{
+
+.social-icon-display:active {
   fill: rgba(104, 162, 202, 0.3);
 }
-.footer-contact-address-phone:hover{
+
+.footer-contact-address-phone:hover {
   color: #756157;
 }
-.footer-contact-address-phone:focus{
+
+.footer-contact-address-phone:focus {
   color: #756157;
 }
-.footer-contact-address-phone:active{
+
+.footer-contact-address-phone:active {
   color: rgba(117, 97, 87, 0.3);
 }
