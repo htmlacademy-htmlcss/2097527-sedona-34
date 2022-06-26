@@ -165,6 +165,17 @@ body {
   color: #FFFFFF;
   position: absolute;
 }
+.navigation-link-current-box{
+position: relative;
+}
+.navigation-link-current:after{
+content: '';
+position:absolute;
+width: 100%;
+bottom: 0;
+height: 2px;
+background-color: #756257;
+}
 
 .main-container {
   flex-grow: 1;
