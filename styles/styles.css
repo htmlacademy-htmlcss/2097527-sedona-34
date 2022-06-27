@@ -787,6 +787,11 @@ body {
   border-radius: 4px;
   width: 290px;
 
+  background: url('../images/catalog/caret.png') no-repeat;
+  background-position: 94% 50%;
+  appearance: none;
+  overflow: hidden;
+
 }
 
 .select-control:hover {
@@ -902,13 +907,33 @@ body {
 
 .pagination-count-select {
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
   width: 160px;
   height: 49px;
   margin: auto 0;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  padding-left:20px;
 
+  appearance: none;
+  overflow: hidden;
+  background: url('../images/catalog/caret.png') no-repeat;
+  background-position: 88% 45%;
+}
 
+.pagination-count-select:hover {
+  border-color: #68A2CA;
+}
+
+.pagination-count-select:focus {
+  outline: none;
+  border-color: #68A2CA;
+}
+
+.pagination-count-select:active {
+  border-color: #3F5E72;
 }
 
 .pagination-pages-item {
