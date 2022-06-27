@@ -115,7 +115,14 @@ body {
   text-decoration: none;
   color: #000000;
   text-align: center;
+}
 
+.navigation-link:hover{
+opacity: 0.6;
+}
+
+.navigation-link:active{
+  opacity: 0.4;
 }
 
 .navigation-button {
@@ -613,7 +620,7 @@ body {
 }
 
 .breadcrumbs-icon-style {
-  fill: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .breadcrumbs-icon-style:hover {
@@ -711,7 +718,7 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   color: #FFFFFF;
-  background: #82B3D3;
+
   padding: 14px 15px 14px 15px;
   border: 0;
   border-radius: 4px;
@@ -731,6 +738,19 @@ body {
   padding: 0;
   border: 0;
 }
+.catalog-button-reset:hover{
+opacity: 0.6;
+}
+.catalog-button-reset:focus{
+  outline-color:#68A2CA;
+
+  outline-style:solid;
+
+}
+.catalog-button-reset:active{
+  opacity: 0.3;
+}
+
 
 .catalog-hotel {
   padding-top: 50px;
@@ -908,14 +928,14 @@ body {
 .pagination-count-select {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+  font-size: 18px;
+  line-height: 21px;
   width: 160px;
   height: 49px;
   margin: auto 0;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-  padding-left:20px;
+  padding-left: 20px;
 
   appearance: none;
   overflow: hidden;
