@@ -500,6 +500,8 @@ body {
   fill: #756157;
 }
 
+
+
 .logo-academy:active {
   fill: rgba(117, 97, 87, 0.3);
 }
@@ -770,7 +772,7 @@ body {
 }
 
 .select-control:focus {
-
+outline: none;
   border-color: #68A2CA;
 }
 
@@ -1009,8 +1011,7 @@ body {
 
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #000000;
-  border-radius: 4px;
+
 }
 
 .catalog-sort-icon-slide {
@@ -1019,8 +1020,7 @@ body {
   height: 44px;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #000000;
-  border-radius: 4px;
+
 }
 
 .catalog-sort-icon-list {
@@ -1029,25 +1029,25 @@ body {
   height: 44px;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #000000;
+
+}
+
+.sort-icon-link{
+  display: block;
+  border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
-
-.catalog-sort-icon-style {
-  border-color: #E5E5E5;
-}
-
-.catalog-sort-icon-style:hover {
+.sort-icon-link:hover {
   border-color: black;
 }
 
-.catalog-sort-icon-style:focus {
+.sort-icon-link:focus{
+  outline: none;
+ border-color: #68A2CA;
 
-
-  border-color: #68A2CA;
 }
 
-.catalog-sort-icon-style:active {
+.sort-icon-link:active {
   border-color: black;
 }
 
@@ -1105,28 +1105,19 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.logo-vk {
-  fill: #83B3D3;
+.social-icon-display{
+  color:#83B3D3;
 }
-
-.logo-tg {
-  fill: #83B3D3;
-}
-
-.logo-youtube {
-  fill: #83B3D3;
-}
-
 .social-icon-display:hover {
-  fill: #68A2CA;
+  color: #68A2CA;
 }
 
 .social-icon-display:focus {
-  fill: #68A2CA;
+  color: #68A2CA;
 }
 
 .social-icon-display:active {
-  fill: rgba(104, 162, 202, 0.3);
+  color: rgba(104, 162, 202, 0.3);
 }
 
 .footer-contact-address-phone:hover {
