@@ -157,6 +157,25 @@ body {
 
 }
 
+.navigation-counter-box {
+  position: relative;
+}
+
+.navigation-icons-counter-circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 15px;
+  margin: 0;
+  background: #7DB54F;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .navigation-icons-counter {
 
   font-size: 10px;
@@ -164,8 +183,11 @@ body {
   text-align: center;
   letter-spacing: -0.1em;
   color: #FFFFFF;
-  position: absolute;
+  margin: 0;
+
+
 }
+
 
 .navigation-link-current-box {
   position: relative;
@@ -772,7 +794,7 @@ body {
 }
 
 .select-control:focus {
-outline: none;
+  outline: none;
   border-color: #68A2CA;
 }
 
@@ -1032,18 +1054,19 @@ outline: none;
 
 }
 
-.sort-icon-link{
+.sort-icon-link {
   display: block;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
+
 .sort-icon-link:hover {
   border-color: black;
 }
 
-.sort-icon-link:focus{
+.sort-icon-link:focus {
   outline: none;
- border-color: #68A2CA;
+  border-color: #68A2CA;
 
 }
 
@@ -1105,9 +1128,10 @@ outline: none;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.social-icon-display{
-  color:#83B3D3;
+.social-icon-display {
+  color: #83B3D3;
 }
+
 .social-icon-display:hover {
   color: #68A2CA;
 }
