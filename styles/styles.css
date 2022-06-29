@@ -63,6 +63,11 @@ body {
 
 }
 
+.logo:focus {
+  box-shadow: inset 0 -3px 0 5px blue;
+  outline: none;
+}
+
 .navigation-list {
   display: flex;
   align-items: flex-start;
@@ -115,6 +120,7 @@ body {
   text-decoration: none;
   color: #000000;
   text-align: center;
+
 }
 
 .navigation-link:hover {
@@ -127,6 +133,10 @@ body {
 
 .navigation-link:disabled {
   opacity: 0.3;
+}
+
+.navigation-link:focus {
+  outline-color: blue;
 }
 
 .navigation-button {
@@ -423,6 +433,23 @@ body {
   margin-bottom: 93px;
 }
 
+.hotel-search-link-box {
+  width: 576px;
+  margin: 0 auto;
+
+
+}
+
+.hotel-search-link {
+  display: block;
+}
+
+.hotel-search-link:focus {
+
+  box-shadow: 0 0 0 4px blue;
+  outline: none;
+}
+
 .footer-subscribe {
   background-image: url("../images/index/subsctibe-background.jpg");
   background-size: 100% auto;
@@ -484,6 +511,11 @@ body {
   margin-bottom: 94px;
 }
 
+.field:focus {
+  box-shadow: inset 0 0 0 4px blue;
+  outline: none;
+}
+
 .page-footer-container {
   display: flex;
   width: 1060px;
@@ -531,6 +563,8 @@ body {
 
 .logo-academy:focus {
   fill: #756157;
+  box-shadow: 0 0 0 4px blue;
+  outline: none;
 }
 
 
@@ -634,6 +668,11 @@ body {
 
 .breadcrumbs-icon-style:active {
   fill: rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumbs-link:focus {
+  box-shadow: 0 0 0 4px blue;
+  outline: none;
 }
 
 .breadcrumbs-item-style {
@@ -750,7 +789,8 @@ body {
 
 .catalog-button-reset:focus {
   outline-color: #68A2CA;
-
+  box-shadow: inset 0 0 0 4px blue;
+  outline: none;
 
 
 }
@@ -1156,6 +1196,8 @@ body {
 
 .button-brown:focus {
   background: #615048;
+  box-shadow: inset 0 0 0 4px blue;
+  outline: none;
 }
 
 .button-brown:active {
@@ -1178,6 +1220,8 @@ body {
 
 .button-blue:focus {
   background: #68A2CA;
+  box-shadow: inset 0 0 0 4px blue;
+  outline: none;
 }
 
 .button-blue:active {
@@ -1200,6 +1244,8 @@ body {
 
 .button-green:focus {
   background: #6C9E42;
+  box-shadow: inset 0 0 0 4px blue;
+  outline: none;
 }
 
 .button-green:active {
@@ -1221,6 +1267,8 @@ body {
 
 .social-icon-display:focus {
   color: #68A2CA;
+  box-shadow: 0 0 0 4px blue;
+  outline: none;
 }
 
 .social-icon-display:active {
@@ -1233,6 +1281,8 @@ body {
 
 .footer-contact-address-phone:focus {
   color: #756157;
+  box-shadow: inset 0 0 0 4px blue;
+  outline: none;
 }
 
 .footer-contact-address-phone:active {
