@@ -516,12 +516,14 @@ body {
   outline: none;
 
 }
-.field:hover{
+
+.field:hover {
   outline: 2px solid blue;
 }
+
 .field:disabled,
-.field:disabled:hover{
-  color:#68A2CA;
+.field:disabled:hover {
+  color: #68A2CA;
   background-color: #dbb590;
   border-color: #68A2CA;
 }
@@ -735,9 +737,11 @@ body {
   padding: 0;
   margin: 0;
 }
-.catalog-filter-item{
-  height:21px;
+
+.catalog-filter-item {
+  height: 21px;
 }
+
 .catalog-filter-item:not(:last-child) {
   margin-bottom: 15px;
 
@@ -859,31 +863,36 @@ body {
   width: 48px;
   height: 48px;
 }
-.range{
+
+.range {
   width: 288px;
 }
 
-.range-wrapper-inputs{
+.range-wrapper-inputs {
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
-.catalog-filter-label{
-  box-sizing:border-box;
+
+.catalog-filter-label {
+  box-sizing: border-box;
   display: flex;
   width: 144px;
   padding: 12px 14px 11px 14px;
   border: 2px solid #FFFFFF;
 
 }
-.catalog-filter-label-min{
-border-right: 1px solid #FFFFFF;
-border-radius: 4px 0 0 4px;
+
+.catalog-filter-label-min {
+  border-right: 1px solid #FFFFFF;
+  border-radius: 4px 0 0 4px;
 }
-.catalog-filter-label-max{
+
+.catalog-filter-label-max {
   border-left: 1px solid #FFFFFF;
   border-radius: 0 4px 4px 0;
-  }
+}
+
 .range-input {
   font: inherit;
   background-color: transparent;
@@ -891,7 +900,7 @@ border-radius: 4px 0 0 4px;
   appearance: textfield;
   width: 87px;
   color: white;
-  padding: 0px 5px;
+  padding: 0 5px;
 }
 
 
@@ -900,32 +909,36 @@ border-radius: 4px 0 0 4px;
   appearance: none;
   margin: 0;
 }
-.catalog-filter-label-text{
-margin: 0px;
-opacity: 0.3;
-}
-.range-scale{
-position: relative;
-width: 288px;
-height: 4px;
 
-background-color: #61696D;
+.catalog-filter-label-text {
+  margin: 0;
+  opacity: 0.3;
 }
 
-.range-bar{
+.range-scale {
+  position: relative;
+  width: 288px;
+  height: 4px;
+
+  background-color: #61696D;
+}
+
+.range-bar {
   position: absolute;
   height: 4px;
   background-color: white;
 }
-.range-toggle{
-position: absolute;
-width: 20px;
-height: 20px;
-border-radius: 5px;
-border:none;
-background-color: #FFFFFF;
-cursor: pointer;
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FFFFFF;
+  cursor: pointer;
 }
+
 .range-toggle:hover {
   background-color: #68A2CA;
 }
