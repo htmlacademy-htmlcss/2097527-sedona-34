@@ -699,14 +699,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.control-input {
-  width: 20px;
-  height: 20px;
-  margin: 0;
-  margin-right: 11px;
-  padding: 5px 4px;
 
-}
 
 .catalog-filter {
   width: 1060px;
@@ -722,6 +715,10 @@ body {
   font-size: 20px;
   line-height: 26px;
   padding: 0;
+  margin-bottom: 30px;
+}
+
+.catalog-filter-title-price {
   margin-bottom: 34px;
 }
 
@@ -745,6 +742,55 @@ body {
 .catalog-filter-item:not(:last-child) {
   margin-bottom: 15px;
 
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 40px;
+}
+
+.control-mark {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.control:hover .control-mark {
+  background-color: #68A2CA;
+}
+
+.control-input:disabled + .control-mark {
+  border-color: #242424;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  position: absolute;
+  background-image: url("../images/catalog/check.svg");
+  color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  content: '';
+}
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 50%;
+  content: "";
 }
 
 .catalog-filter-addition {
@@ -949,12 +995,12 @@ body {
 }
 
 .toggle-min {
-  top: -8px;
-  left: -10px;
+  top: -10px;
+  left: 0;
 }
 
 .toggle-max {
-  top: -8px;
+  top: -10px;
   right: -10px;
 }
 
