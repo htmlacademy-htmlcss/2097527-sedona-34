@@ -249,6 +249,44 @@
         </a>
       </div>
     </footer>
+    <div class="modal-container">
+      <div class="modal modal-search">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <div class="modal-line">
+            <label class="modal-label">
+              <span class="modal-text modal-text-font">Дата Заезда:</span>
+              <input class="modal-date" type="date" name="day-in">
+            </label>
+            <p class="modal-date-announce">Мы не можем отправить вас в прошлое.</p>
+          </div>
+
+          <div class="modal-line">
+            <label class="modal-label">
+              <span class="modal-text modal-text-font">Дата Выезда:</span>
+              <input class="modal-date" type="date" name="day-out">
+            </label>
+            <p class="modal-date-announce date-out">На эти даты есть свободные номера. Пока есть.</p>
+          </div>
+
+          <div class="modal-line modal-label">
+            <label class="label-adult">
+              <span class="modal-text modal-text-font">Взрослые:</span>
+              <input class="modal-abults-input" type="number" name="count-adults" min="0" max="99" step="1">
+            </label>
+            <label class="label-children">
+              <span class="modal-text modal-text-font">Дети:</span>
+              <input class="modal-children-input" type="number" name="count-children" min="0" max="99" step="1">
+            </label>
+          </div>
+          <button class="button modal-button button-blue">Найти</button>
+        </section>
+      </div>
+
+    </div>
 
   </body>
 
