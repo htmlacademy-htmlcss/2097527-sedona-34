@@ -1547,8 +1547,39 @@ body {
 }
 
 .modal-text {
+  display: block;
+  box-sizing: border-box;
   margin: 0;
+  width: 130px;
 
+}
+
+.modal-text-block {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 70px;
+
+}
+
+.modal-popover-button {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #83B3D3;
+  left: 54px;
+  border: none;
+  top: 14px;
+  padding: 0;
+  background-image: url('..//images/modal/info-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.modal-popover-block {
+  position: relative;
 }
 
 .modal-text-font {
@@ -1575,6 +1606,13 @@ body {
   background: #F2F2F2;
   border-radius: 4px;
   margin: 0;
+  background-image: url("..//images/modal/date-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center right 17px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
 }
 
 .modal-date-announce {
@@ -1593,12 +1631,14 @@ body {
 }
 
 .modal-line {
+  margin-bottom: 40px;
+}
+
+.modal-line-with-descr {
   margin-bottom: 11px;
 }
 
-.modal-line .button{
-  margin-bottom: 40px;
-}
+
 
 .date-out {
   color: #333333;
@@ -1611,16 +1651,18 @@ body {
 
 .label-children {
   min-width: 230px;
+  gap: 43px;
 }
 
 .label-adult,
 .label-children {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.modal-abults-input,
+.modal-adults-input,
 .modal-children-input {
   box-sizing: border-box;
   width: 133px;
@@ -1628,8 +1670,20 @@ body {
   background: #F2F2F2;
   border-radius: 4px;
   border: none;
-  padding: 0 36px 0 61px;
+  padding: 0 61px 0 61px;
   font: inherit;
+  appearance: none;
+
+}
+
+input.modal-children-input::-webkit-outer-spin-button,
+input.modal-children-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input.modal-adults-input::-webkit-outer-spin-button,
+input.modal-adults-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .modal-button {
@@ -1645,4 +1699,70 @@ body {
   color: #FFFFFF;
   text-transform: uppercase;
   border-radius: 10px;
+}
+
+.modal-number-box {
+  position: relative;
+}
+
+.modal-number-button {
+  position: absolute;
+  height: 100%;
+  width: 51px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.modal-number-button-min {
+  left: 0;
+  top: 0;
+  background-image: url('..//images/modal/minus.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modal-number-button-max {
+  right: 0;
+  top: 0;
+  background-image: url('..//images/modal/plus.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+}
+
+.popover-info {
+  position: absolute;
+  width: 216px;
+  padding: 15px 18px 18px 22px;
+  background: #333333;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  right: -128px;
+  top: 40px;
+}
+
+.popover-info:after {
+  position: absolute;
+  background-image: url('..//images/modal/info-corner.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  content: '';
+  width: 19px;
+  height: 9px;
+  right: 128px;
+  top: -9px;
+}
+
+.popover-info-text {
+  margin: 0;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
 }
