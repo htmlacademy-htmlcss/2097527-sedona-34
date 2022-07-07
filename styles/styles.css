@@ -64,8 +64,7 @@ body {
 }
 
 .logo:focus {
-  box-shadow: inset 0 -3px 0 5px #81B3D2;
-  outline: none;
+    outline: none;
 }
 
 .navigation-list {
@@ -431,7 +430,7 @@ body {
   padding: 12px 15px 12px 15px;
   margin: 0 auto;
   margin-bottom: 93px;
-}
+  }
 
 .hotel-search-link-box {
   width: 576px;
@@ -442,13 +441,15 @@ body {
 
 .hotel-search-link {
   display: block;
+  border-radius: 4px;
+
 }
 
 .hotel-search-link:focus {
-
-  box-shadow: 0 0 0 4px #81B3D2;
-  outline: none;
+  background-color: #615048;
+ /*  outline: none; */
 }
+
 
 .footer-subscribe {
   background-image: url("../images/index/subsctibe-background.jpg");
@@ -512,7 +513,7 @@ body {
 }
 
 .field:focus {
-  box-shadow: inset 0 0 0 4px #81B3D2;
+  box-shadow: inset 0 0 0 4px #68A2CA;
   outline: none;
 
 }
@@ -575,7 +576,6 @@ body {
 
 .logo-academy:focus {
   fill: #756157;
-  box-shadow: 0 0 0 4px #81B3D2;
   outline: none;
 }
 
@@ -1404,7 +1404,6 @@ body {
 
 .button-brown:focus {
   background: #615048;
-  box-shadow: 0 0 0 4px #81B3D2;
   outline: none;
 }
 
@@ -1428,8 +1427,7 @@ body {
 
 .button-blue:focus {
   background: #68A2CA;
-  box-shadow: 0 0 0 4px #81B3D2;
-  outline: none;
+    outline: none;
 }
 
 .button-blue:active {
@@ -1452,8 +1450,7 @@ body {
 
 .button-green:focus {
   background: #6C9E42;
-  box-shadow: 0 0 0 4px #81B3D2;
-  outline: none;
+    outline: none;
 }
 
 .button-green:active {
@@ -1475,7 +1472,6 @@ body {
 
 .social-icon-display:focus {
   color: #68A2CA;
-  box-shadow: 0 0 0 4px #81B3D2;
   outline: none;
 }
 
@@ -1486,10 +1482,8 @@ body {
 .footer-contact-address-phone:hover {
   color: #756157;
 }
-
-.footer-contact-address-phone:focus {
+.footer-contact-address-phone:focus{
   color: #756157;
-  box-shadow: inset 0 0 0 4px #81B3D2;
   outline: none;
 }
 
@@ -1504,7 +1498,6 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(242, 242, 242, 0.8);
-  display: flex;
   z-index: 1;
   display: none;
 }
