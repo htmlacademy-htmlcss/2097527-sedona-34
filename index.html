@@ -250,7 +250,7 @@
       </div>
     </footer>
 
-    <div class="modal-container">
+    <div class="modal-container modal-container-active">
       <div class="modal modal-search">
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
@@ -261,15 +261,15 @@
             <div class="modal-line modal-line-with-descr">
               <label class="modal-label">
                 <span class="modal-text modal-text-font">Дата Заезда:</span>
-                <input class="modal-date" type="date" name="day-in">
+                <input class="modal-date"  name="day-in" type="text" placeholder="Укажите дату" onfocus="(this.type='date')" onblur="(this.type='text')" required>
               </label>
-              <p class="modal-date-announce">Мы не можем отправить вас в прошлое.</p>
+              <p class="modal-date-announce modal-date-announce-error">Мы не можем отправить вас в прошлое.</p>
             </div>
 
             <div class="modal-line modal-line-with-descr">
               <label class="modal-label">
                 <span class="modal-text modal-text-font">Дата Выезда:</span>
-                <input class="modal-date modal-date-icon" type="date" name="day-out">
+                <input class="modal-date modal-date-icon" name="day-out" type="text" placeholder="Укажите дату" onfocus="(this.type='date')" onblur="(this.type='text')" required>
               </label>
               <p class="modal-date-announce date-out">На эти даты есть свободные номера. Пока есть.</p>
             </div>
@@ -284,7 +284,7 @@
                 <div class="modal-number-button-block">
                   <button class="modal-number-button modal-number-button-min" type="button">
                     <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity=".3" d="M0 0v1h13V0H0Z" fill="#000" />
+                      <path d="M0 0v1h13V0H0Z" fill="#000" />
                     </svg>
                   </button>
                   <button class="modal-number-button modal-number-button-max" type="button">
@@ -299,13 +299,13 @@
                 <div class="modal-number-box">
                   <label class="label-children">
                     <span class="modal-text-block modal-text-font">Дети:</span>
-                    <input class="modal-children-input" type="number" name="count-children" min="0" max="99" step="1"
+                    <input class="modal-children-input  modal-number-input" type="number" name="count-children" min="0" max="99" step="1"
                       value="0">
                   </label>
                   <div class="modal-number-button-block">
                     <button class="modal-number-button modal-number-button-min" type="button">
                       <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity=".3" d="M0 0v1h13V0H0Z" fill="#000" />
+                        <path d="M0 0v1h13V0H0Z" fill="#000" />
                       </svg>
                     </button>
                     <button class="modal-number-button modal-number-button-max" type="button">
