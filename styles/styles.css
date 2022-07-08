@@ -64,7 +64,7 @@ body {
 }
 
 .logo:focus {
-    outline: none;
+  outline: none;
 }
 
 .navigation-list {
@@ -430,7 +430,7 @@ body {
   padding: 12px 15px 12px 15px;
   margin: 0 auto;
   margin-bottom: 93px;
-  }
+}
 
 .hotel-search-link-box {
   width: 576px;
@@ -1427,7 +1427,7 @@ body {
 
 .button-blue:focus {
   background: #68A2CA;
-    outline: none;
+  outline: none;
 }
 
 .button-blue:active {
@@ -1450,7 +1450,7 @@ body {
 
 .button-green:focus {
   background: #6C9E42;
-    outline: none;
+  outline: none;
 }
 
 .button-green:active {
@@ -1482,7 +1482,8 @@ body {
 .footer-contact-address-phone:hover {
   color: #756157;
 }
-.footer-contact-address-phone:focus{
+
+.footer-contact-address-phone:focus {
   color: #756157;
   outline: none;
 }
@@ -1501,8 +1502,9 @@ body {
   z-index: 1;
   display: none;
 }
-.modal-active{
-display:flex;
+
+.modal-active {
+  display: flex;
 }
 
 .modal {
@@ -1718,15 +1720,16 @@ input.modal-adults-input::-webkit-inner-spin-button {
   justify-content: center;
   align-items: center;
 }
-.modal-number-button-block{
+
+.modal-number-button-block {
   position: absolute;
-  margin-left:auto;
+  margin-left: auto;
   width: 133px;
   height: 50px;
   display: flex;
-justify-content: space-between;
-top: 0;
-right: 0;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
 
 }
 
@@ -1759,7 +1762,8 @@ right: 0;
   right: 128px;
   top: -9px;
 }
-.popover-info-active{
+
+.popover-info-active {
   display: block;
 }
 
