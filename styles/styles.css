@@ -1083,6 +1083,10 @@ body {
   text-transform: uppercase;
 }
 
+.card-buttons-item .in-favourite{
+  background-color: #7DB54F;
+  }
+
 .card-rate-item-box {
   font-size: 16px;
   line-height: 20px;
