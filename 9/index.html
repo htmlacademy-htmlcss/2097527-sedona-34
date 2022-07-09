@@ -263,11 +263,9 @@
               <p class="modal-date-announce date-out">На эти даты есть свободные номера. Пока есть.</p>
             </div>
             <div class="modal-line modal-label">
-              <div class="modal-number-box">
-                <label class="label-adult">
+              <div class="modal-adult-box">
+                <label class="label-adult" for="modal-input-adults">
                   <span class="modal-text modal-text-font">Взрослые:</span>
-                  <input class="modal-adults-input  modal-number-input" type="number" name="count-adults" min="0"
-                    max="99" step="1" value="1">
                 </label>
                 <div class="modal-number-button-block">
                   <button class="modal-number-button modal-number-button-min" type="button">
@@ -275,6 +273,8 @@
                       <path d="M0 0v1h13V0H0Z" fill="#000" />
                     </svg>
                   </button>
+                  <input class="modal-adults-input  modal-number-input" id="modal-input-adults" type="number"
+                    name="count-adults" min="0" max="99" step="1" value="1">
                   <button class="modal-number-button modal-number-button-max" type="button">
                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
@@ -283,30 +283,34 @@
                 </div>
               </div>
               <div class="modal-popover-block">
-                <div class="modal-number-box">
-                  <label class="label-children">
+                <div class="modal-children-box">
+                  <label class="label-children" for="modal-imput-children">
                     <span class="modal-text-block modal-text-font">Дети:</span>
-                    <input class="modal-children-input  modal-number-input" type="number" name="count-children" min="0"
-                      max="99" step="1" value="0">
                   </label>
+                  <div class="modal-popover-button-wrapper">
+                    <button class="modal-popover-button" type="button">
+                    </button>
+                    <div class="popover-info popover-info-active">
+                      <div class="popover-info-content">
+                        <p class="popover-info-text">Укажите количество детей, которые будут с вами, возраст которых
+                          от 6
+                          до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
+                      </div>
+                    </div>
+                  </div>
                   <div class="modal-number-button-block">
                     <button class="modal-number-button modal-number-button-min" type="button">
                       <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0v1h13V0H0Z" fill="#000" />
                       </svg>
                     </button>
+                    <input class="modal-children-input  modal-number-input" id="modal-imput-children" type="number"
+                      name="count-children" min="0" max="99" step="1" value="0">
                     <button class="modal-number-button modal-number-button-max" type="button">
                       <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
                       </svg>
                     </button>
-                  </div>
-                </div>
-                <button class="modal-popover-button" type="button"></button>
-                <div class="popover-info popover-info-active">
-                  <div class="popover-info-content">
-                    <p class="popover-info-text">Укажите количество детей, которые будут с вами, возраст которых от 6
-                      до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
                   </div>
                 </div>
               </div>

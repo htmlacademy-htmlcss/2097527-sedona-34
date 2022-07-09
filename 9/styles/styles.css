@@ -468,13 +468,12 @@ body {
 }
 
 .field:focus {
-  box-shadow: inset 0 0 0 4px #68A2CA;
+  box-shadow: inset 0 0 0 2px #68A2CA;
   outline: none;
-
 }
 
 .field:hover {
-  outline: 2px solid #81B3D2;
+  box-shadow: inset 0 0 0 2px #68A2CA;
 }
 
 .field:disabled,
@@ -1084,6 +1083,10 @@ body {
   text-transform: uppercase;
 }
 
+.card-buttons-item .in-favourite{
+  background-color: #7DB54F;
+  }
+
 .card-rate-item-box {
   font-size: 16px;
   line-height: 20px;
@@ -1161,6 +1164,26 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
+}
+
+.pagination-pages-item .pagination-pages-current {
+  background: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-pages-item .pagination-pages-current:hover {
+  background: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-pages-item .pagination-pages-current:focus {
+  background: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-pages-item .pagination-pages-current:active {
+  background: #F2F2F2;
+  color: #000000;
 }
 
 .pagination-pages-list {
@@ -1485,20 +1508,25 @@ body {
 
 .modal-text-block {
   display: block;
-  box-sizing: border-box;
-  margin: 0;
-  max-width: 70px;
+  margin: 0 0 0 auto;
+  max-width: 110px;
+  min-width: 54px;
+}
+
+.modal-popover-button-wrapper {
+  position: relative;
+  margin-right: 18px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 .modal-popover-button {
-  position: absolute;
   width: 25px;
   height: 25px;
   border-radius: 50%;
   background: #83B3D3;
-  left: 54px;
   border: none;
-  top: 14px;
   padding: 0;
   background-image: url('../images/modal/info-icon.svg');
   background-repeat: no-repeat;
@@ -1567,7 +1595,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .modal-date-announce {
-
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1577,7 +1604,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #333333;
   margin: 0 0 0 auto;
   padding-top: 8px;
-
 }
 
 .modal-date-announce-error {
@@ -1592,27 +1618,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin-bottom: 11px;
 }
 
-
-
 .date-out {
   color: #333333;
 }
 
-.label-adult {
-
-  min-width: 288px;
-}
-
 .label-children {
-  min-width: 230px;
-  gap: 43px;
-}
-
-.label-adult,
-.label-children {
-  position: relative;
   display: flex;
-  justify-content: space-between;
+  width: 100px;
   align-items: center;
 }
 
@@ -1624,10 +1636,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
   background: #F2F2F2;
   border-radius: 4px;
   border: none;
-  padding: 0 61px 0 61px;
+  padding: 0 41px 0 41px;
   font: inherit;
   appearance: none;
-
+  text-align: center;
 }
 
 input.modal-children-input::-webkit-outer-spin-button,
@@ -1675,14 +1687,24 @@ input.modal-adults-input::-webkit-inner-spin-button {
   outline: none;
 }
 
-.modal-number-box {
+.modal-adult-box {
+  width: 288px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-children-box {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .modal-number-button {
-
-  height: 50px;
-  width: 51px;
+  position: absolute;
+  height: 35px;
+  width: 35px;
   padding: 0;
   margin: 0;
   border: none;
@@ -1706,17 +1728,20 @@ input.modal-adults-input::-webkit-inner-spin-button {
 }
 
 .modal-number-button-block {
-  position: absolute;
-  margin-left: auto;
+  position: relative;
   width: 133px;
   height: 50px;
-  display: flex;
-  justify-content: space-between;
-  top: 0;
-  right: 0;
-
 }
 
+.modal-number-button-min {
+  top: 7px;
+  left: 7px;
+}
+
+.modal-number-button-max {
+  top: 7px;
+  right: 7px;
+}
 
 .popover-info {
   position: absolute;
@@ -1725,8 +1750,8 @@ input.modal-adults-input::-webkit-inner-spin-button {
   background: #333333;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  right: 26px;
-  top: 49px;
+  right: -116px;
+  top: 40px;
   display: none;
 }
 
@@ -1738,7 +1763,7 @@ input.modal-adults-input::-webkit-inner-spin-button {
   content: '';
   width: 19px;
   height: 9px;
-  right: 128px;
+  right: 118px;
   top: -9px;
 }
 
