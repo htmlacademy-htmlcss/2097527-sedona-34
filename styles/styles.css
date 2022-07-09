@@ -1162,6 +1162,22 @@ body {
   display: flex;
   align-items: center;
 }
+.pagination-pages-item .pagination-pages-current{
+  background: #F2F2F2;
+  color: #000000;
+}
+.pagination-pages-item .pagination-pages-current:hover{
+  background: #F2F2F2;
+  color: #000000;
+}
+.pagination-pages-item .pagination-pages-current:focus{
+  background: #F2F2F2;
+  color: #000000;
+}
+.pagination-pages-item .pagination-pages-current:active{
+  background: #F2F2F2;
+  color: #000000;
+}
 
 .pagination-pages-list {
   list-style-type: none;
