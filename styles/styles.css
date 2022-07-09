@@ -468,14 +468,13 @@ body {
 }
 
 .field:focus {
-  box-shadow: inset 0 0 0 4px #68A2CA;
-  outline: none;
-
+  box-shadow: inset 0 0 0 2px #68A2CA;
+   outline: none;
 }
 
 .field:hover {
-  outline: 2px solid #81B3D2;
-}
+    box-shadow: inset 0 0 0 2px #68A2CA;
+  }
 
 .field:disabled,
 .field:disabled:hover {
