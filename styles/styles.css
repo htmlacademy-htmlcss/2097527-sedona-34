@@ -907,7 +907,7 @@ body {
   appearance: textfield;
   width: 144px;
   color: white;
-  padding: 14px 33px 13px 19px;
+  padding: 12px 33px 11px 19px;
 }
 
 .range-input:hover {
@@ -1216,9 +1216,11 @@ body {
 }
 
 .catalog-footer-subscribe {
+  box-sizing: border-box;
   color: #000000;
   text-align: center;
   padding-top: 94px;
+  min-height: 411px;
 }
 
 .footer-subscribe-title-color,
@@ -1468,7 +1470,7 @@ body {
 }
 
 .modal-search {
-  min-width: 715px;
+  max-width: 715px;
 }
 
 .modal-close-button {
@@ -1564,6 +1566,7 @@ body {
 
 .modal-label {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   min-width: 575px;
@@ -1764,8 +1767,8 @@ input.modal-adults-input::-webkit-inner-spin-button {
   background: #333333;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  right: -116px;
-  top: 40px;
+  right: -115px;
+  top: 41px;
   display: none;
 }
 
