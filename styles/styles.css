@@ -1039,6 +1039,9 @@ body {
   text-decoration: none;
   margin-bottom: 16px;
 }
+.card-link:focus{
+  outline: 2px solid #68a2ca;
+}
 
 .card-title {
   font-weight: 700;
@@ -1083,10 +1086,6 @@ body {
   border: none;
   color: #ffffff;
   text-transform: uppercase;
-}
-
-.card-buttons-item .in-favourite {
-  background-color: #7db54f;
 }
 
 .card-rate-item-box {
@@ -1391,7 +1390,7 @@ body {
 }
 
 .button-green:hover {
-  background: #cc9e42;
+  background: #6c9e42;
 }
 
 .button-green:focus {
