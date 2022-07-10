@@ -440,6 +440,7 @@ body {
 .footer-subscribe-form {
   display: flex;
   justify-content: center;
+  margin-bottom: 94px;
 }
 
 .footer-subscribe-button {
@@ -451,7 +452,7 @@ body {
   background: #82B3D3;
   border: none;
   width: 200px;
-  height: 60px;
+  min-height: 60px;
   padding: 0;
   border-radius: 0 10px 10px 0;
 }
@@ -460,13 +461,12 @@ body {
   font-size: 18px;
   line-height: 21px;
   width: 556px;
-  min-height: 60px;
+  height: 60px;
   background: #F2F2F2;
   padding: 0 22px 0 22px;
   border: 0;
   border-radius: 10px 0 0 10px;
-  margin-bottom: 94px;
-}
+  }
 
 .field:focus {
   box-shadow: inset 0 0 0 2px #68A2CA;
@@ -686,7 +686,7 @@ body {
 }
 
 .catalog-filter-item {
-  height: 21px;
+  min-height: 21px;
 }
 
 .catalog-filter-item:not(:last-child) {
@@ -837,11 +837,13 @@ body {
 }
 
 .catalog-sort-description {
+
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   margin: 0;
+width: 500px;
 }
 
 .catalog-sort-list {
@@ -990,7 +992,7 @@ body {
 }
 
 .sort-description {
-  margin: auto 191px auto 0;
+  margin: auto 29px auto 0;
 }
 
 .select-control {
@@ -1064,9 +1066,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   width: 140px;
-  height: 37px;
-  background-color: #756157;
-  border-radius: 4px;
+  min-height: 37px;
+
   display: flex;
   align-items: center;
   text-align: center;
@@ -1079,7 +1080,7 @@ body {
   line-height: 20px;
   text-align: center;
   width: 140px;
-  height: 37px;
+  min-height: 37px;
   background: #82B3D3;
   border-radius: 4px;
   border: none;
@@ -1124,6 +1125,7 @@ body {
 
 .pagination-count-description {
   margin-top: 20px;
+  max-width: 400px;
 }
 
 .pagination-count-select {
@@ -1163,7 +1165,7 @@ body {
 .pagination-pages-item {
   background-color: #82B3D3;
   width: 60px;
-  height: 60px;
+  min-height: 60px;
   border-radius: 4px;
   justify-content: center;
   display: flex;
