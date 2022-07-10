@@ -1575,6 +1575,7 @@ body {
 .modal-date {
   box-sizing: border-box;
   width: 420px;
+  height: 50px;
   padding: 15px 19px 14px 19px;
   font-weight: 700;
   font-size: 18px;
