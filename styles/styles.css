@@ -1611,6 +1611,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   opacity: 1;
 }
 
+.modal-date:disabled {
+  background-color: rgba(165, 42, 42, 0.349);
+  outline: none;
+}
+
 .modal-date-announce {
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
