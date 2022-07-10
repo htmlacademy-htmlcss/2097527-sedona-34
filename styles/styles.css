@@ -517,12 +517,14 @@ body {
   justify-content: center;
   align-items: center;
 }
-.low-footer-link-htmlacademy:focus{
+
+.low-footer-link-htmlacademy:focus {
   outline: none;
 }
-.low-footer-link-htmlacademy:focus .logo-academy{
+
+.low-footer-link-htmlacademy:focus .logo-academy {
   fill: #756157;
-  }
+}
 
 .logo-academy {
   margin-top: 3px;
@@ -1084,9 +1086,9 @@ body {
   text-transform: uppercase;
 }
 
-.card-buttons-item .in-favourite{
+.card-buttons-item .in-favourite {
   background-color: #7DB54F;
-  }
+}
 
 .card-rate-item-box {
   font-size: 16px;
@@ -1588,7 +1590,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   outline: none;
 }
 
-.modal-date:active {
+.modal-date:not(:placeholder-shown) {
   background: #FFFFFF;
   box-shadow: inset 0 0 0 2px #000000;
   outline: none;
