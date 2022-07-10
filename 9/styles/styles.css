@@ -517,6 +517,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.low-footer-link-htmlacademy:focus{
+  outline: none;
+}
+.low-footer-link-htmlacademy:focus .logo-academy{
+  fill: #756157;
+  }
 
 .logo-academy {
   margin-top: 3px;
@@ -526,11 +532,6 @@ body {
 
 .logo-academy:hover {
   fill: #756157;
-}
-
-.logo-academy:focus {
-  fill: #756157;
-  outline: none;
 }
 
 .logo-academy:active {
