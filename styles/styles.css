@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  min-width:1280px;
+  min-width: 1280px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -442,7 +442,7 @@ body {
 .footer-subscribe-form {
   display: flex;
   justify-content: center;
-  }
+}
 
 .footer-subscribe-button {
   font-weight: 700;
@@ -467,7 +467,7 @@ body {
   padding: 0 22px 0 22px;
   border: 0;
   border-radius: 10px 0 0 10px;
-  }
+}
 
 .field:focus {
   box-shadow: inset 0 0 0 2px #68A2CA;
@@ -844,7 +844,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   margin: 0;
-width: 500px;
+  width: 500px;
 }
 
 .catalog-sort-list {
@@ -1069,7 +1069,6 @@ width: 500px;
   line-height: 20px;
   width: 140px;
   min-height: 37px;
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -1137,7 +1136,7 @@ width: 500px;
   line-height: 21px;
   width: 160px;
   height: 49px;
-  margin: auto 0;
+  margin: 5px 0 auto 0;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   padding-left: 20px;
@@ -1197,6 +1196,7 @@ width: 500px;
 .pagination-pages-list {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   padding: 0;
 }
@@ -1259,8 +1259,10 @@ width: 500px;
   list-style-type: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 16px;
+  gap: 10px 0;
 }
 
 .card-buttons-description {
@@ -1272,7 +1274,9 @@ width: 500px;
   list-style-type: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 10px 0;
 }
 
 .card-rate-count {
@@ -1527,7 +1531,7 @@ width: 500px;
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  }
+}
 
 .modal-popover-button {
   display: block;
