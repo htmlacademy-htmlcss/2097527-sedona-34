@@ -341,6 +341,10 @@ img{
   word-wrap: break-word;
 }
 
+.advantages-item-description-text{
+  max-width:170px;
+}
+
 .advantages-item-with-icon {
   padding-top: 80px;
   padding-bottom: 80px;
