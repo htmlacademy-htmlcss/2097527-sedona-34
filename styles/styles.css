@@ -89,6 +89,8 @@ body {
 .navigation-link-text {
   padding-top: 20px;
   padding-bottom: 20px;
+  max-width: 250px;
+  word-wrap: break-word;
 }
 
 .navigation-pages {
@@ -153,12 +155,13 @@ body {
   min-width: 160px;
   padding: 9px 15px 8px 15px;
   margin-top: 14px;
-}
+  }
 
 .button {
   font-family: "PT Sans", sans-serif;
   text-decoration: none;
   cursor: pointer;
+  word-wrap: break-word;
 }
 
 .navigation-search-button {
@@ -456,6 +459,7 @@ body {
   color: #ffffff;
   margin: 0;
   margin-bottom: 29px;
+  word-wrap: break-word;
 }
 
 .footer-subscribe-description {
@@ -464,6 +468,7 @@ body {
   color: #ffffff;
   margin: 0;
   margin-bottom: 46px;
+  word-wrap: break-word;
 }
 
 .footer-subscribe-form {
@@ -590,8 +595,10 @@ body {
 
 .footer-contact-address {
   text-align: center;
-  width: 350px;
+  min-width: 350px;
+  max-width: 500px;
   display: block;
+  word-wrap: break-word;
 }
 
 .background-house {
@@ -723,7 +730,9 @@ body {
   line-height: 26px;
   padding: 0;
   margin-bottom: 30px;
-}
+  max-width: 150px;
+  word-wrap: break-word;
+ }
 
 .catalog-filter-title-price {
   margin-bottom: 34px;
@@ -754,6 +763,9 @@ body {
   position: relative;
   display: block;
   padding-left: 40px;
+}
+.control-label{
+  word-wrap: break-word;
 }
 
 .control-mark {
@@ -859,6 +871,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  max-width: 270px;
   color: #ffffff;
   padding: 14px 15px 14px 15px;
   border: 0;
@@ -877,6 +890,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
   border: 0;
+  max-width: 270px;
 }
 
 .catalog-button-reset:hover {
@@ -903,13 +917,13 @@ body {
 }
 
 .catalog-sort-description {
-
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   margin: 0;
   width: 500px;
+  word-wrap: break-word;
 }
 
 .catalog-sort-list {
@@ -1151,6 +1165,7 @@ body {
   line-height: 28px;
   color: #000000;
   margin: 0;
+  word-wrap: break-word;
 }
 
 .card-hotel-price-item {
@@ -1162,7 +1177,9 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   padding: 9px 15px 8px 15px;
-}
+  max-width: 140px;
+  word-wrap: break-word;
+  }
 
 .card-buttons-item {
   font-weight: 700;
@@ -1244,6 +1261,7 @@ body {
 .pagination-count-description {
   margin-top: 20px;
   max-width: 400px;
+  word-wrap: break-word;
 }
 
 .pagination-count-select {
@@ -1286,7 +1304,9 @@ body {
   background-color: #82b3d3;
   min-width: 60px;
   min-height: 60px;
+  max-width: 300px;
   border-radius: 4px;
+  word-wrap: break-word;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1296,6 +1316,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+
 }
 
 .pagination-pages-item .pagination-pages-current {
@@ -1377,6 +1398,7 @@ body {
 .card-hotel-description,
 .card-price-description {
   margin: 0;
+  word-wrap: break-word;
 }
 
 .card-hotel-price {
@@ -1412,6 +1434,7 @@ body {
 .card-buttons-description {
   margin: 0;
   width: 110px;
+
 }
 
 .card-rate {
@@ -1430,6 +1453,8 @@ body {
 
 .card-rate-count {
   margin: 0;
+  word-wrap: break-word;
+  max-width: 140px;
 }
 
 .card-rate-item {
@@ -1495,6 +1520,10 @@ body {
 
 .sort-icon-link:disabled {
   opacity: 0.3;
+}
+
+.sort-icon-selected{
+  border: 2px solid #000000;
 }
 
 .button-brown {
@@ -1666,6 +1695,7 @@ body {
   text-transform: uppercase;
   margin: 0 0 63px -2px;
   padding-right: 50px;
+  word-wrap: break-word;
 }
 
 .modal-text {
@@ -1674,6 +1704,7 @@ body {
           box-sizing: border-box;
   margin: 0;
   width: 130px;
+  word-wrap: break-word;
 }
 
 .modal-text-block {
@@ -1681,6 +1712,7 @@ body {
   margin: 0 0 0 auto;
   max-width: 110px;
   min-width: 54px;
+  word-wrap: break-word;
 }
 
 .modal-popover-button-wrapper {
@@ -1807,6 +1839,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: #333333;
   margin: 0 0 0 auto;
   padding-top: 8px;
+  word-wrap: break-word;
 }
 
 .modal-date-announce-error {
@@ -2007,4 +2040,5 @@ input.modal-adults-input::-webkit-inner-spin-button {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  word-wrap: break-word;
 }
