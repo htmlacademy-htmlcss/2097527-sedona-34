@@ -332,10 +332,13 @@ img{
   background-position: right;
   background-repeat: no-repeat;
   padding-top: 92px;
+  background-size: 800px 100%;
 }
 
 .advantages-item-description {
-  margin: 0;
+  margin: 0 auto 0 auto;
+  max-width: 230px;
+  word-wrap: break-word;
 }
 
 .advantages-item-with-icon {
@@ -374,6 +377,7 @@ img{
   background-image: url("../images/index/advantages-2.jpg");
   background-repeat: no-repeat;
   padding-top: 92px;
+  background-size: 800px 100%;
 }
 
 .advantages-item-with-number {
