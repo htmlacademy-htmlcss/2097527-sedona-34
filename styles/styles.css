@@ -1522,6 +1522,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 6px;
+  max-width: 140px;
+  flex-wrap: wrap;
 }
 
 .card-rate-star {
