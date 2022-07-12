@@ -258,7 +258,7 @@ img {
   background: url("../images/index/index-background-bottom.svg") bottom, url("../images/index/index-background.jpg");
   color: #000000;
   background-size: 100% auto;
-  background-color: #ffffff;
+  background-color: #60afe4;
   background-repeat: no-repeat;
   min-height: 485px;
   margin-bottom: 63px;
@@ -474,7 +474,7 @@ img {
   background-image: url("../images/index/subscribe-background.jpg");
   background-size: 100% 100%;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #489ceb;
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 94px;
@@ -659,7 +659,7 @@ img {
 .filter-background {
   background-image: url("../images/catalog/filter-background.jpg");
   color: #ffffff;
-  background-color: #000000;
+  background-color: #4296ce;
   background-repeat: no-repeat;
   width: 1200px;
   margin-bottom: 5px;
