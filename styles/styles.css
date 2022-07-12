@@ -1524,6 +1524,13 @@ img {
   gap: 6px;
 }
 
+.card-rate-star {
+  width: 18px;
+  height: 17px;
+  background-image: url("../images/catalog/star.svg");
+  background-position: center;
+}
+
 .catalog-sort-icon-table {
   background-image: url("../images/catalog/icon-table.svg");
   width: 44px;
