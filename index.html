@@ -243,7 +243,7 @@
       </div>
     </footer>
 
-    <div class="modal-container">
+    <div class="modal-container modal-container-active">
       <div class="modal modal-search">
         <button class="modal-close-button" type="button">
           <span class="visually-hidden">Закрыть.</span>
@@ -252,19 +252,28 @@
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="modal-search-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="modal-line modal-line-with-descr">
-              <label class="modal-label">
-                <span class="modal-text modal-text-font">Дата Заезда:</span>
-                <input class="modal-date" name="day-in" type="text" placeholder="Укажите дату"
-                  onfocus="(this.type='date')" onblur="(this.type='text')" required>
-              </label>
+              <div class="modal-label-wrap">
+                <label class="modal-label-text" for="date-in">
+                  <span class="modal-text modal-text-font">Дата Заезда:</span>
+                </label>
+                <div class="modal-date-wrapper">
+                  <input class="modal-date" id="date-in" name="day-in" type="text" placeholder="27 апреля 2020"
+                    onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                </div>
+              </div>
               <p class="modal-date-announce modal-date-announce-error">Мы не можем отправить вас в прошлое.</p>
             </div>
+
             <div class="modal-line modal-line-with-descr">
-              <label class="modal-label">
-                <span class="modal-text modal-text-font">Дата Выезда:</span>
-                <input class="modal-date modal-date-icon" name="day-out" type="text" placeholder="Укажите дату"
-                  onfocus="(this.type='date')" onblur="(this.type='text')" required>
-              </label>
+              <div class="modal-label-wrap">
+                <label class="modal-label-text" for="date-out">
+                  <span class="modal-text modal-text-font">Дата Выезда:</span>
+                </label>
+                <div class="modal-date-wrapper">
+                  <input class="modal-date" id="date-out" name="day-out" type="text" placeholder="1 сентября 2021"
+                    onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                </div>
+              </div>
               <p class="modal-date-announce date-out">На эти даты есть свободные номера. Пока есть.</p>
             </div>
             <div class="modal-line modal-label">
@@ -281,7 +290,7 @@
                     <span class="visually-hidden">Минус.</span>
                   </button>
                   <input class="modal-adults-input  modal-number-input" id="modal-input-adults" type="number"
-                    name="count-adults" min="0" max="99" step="1" value="1">
+                    name="count-adults" min="0" max="99" step="1" value="2">
                   <button class="modal-number-button modal-number-button-max" type="button">
                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"
                       aria-hidden="true">
@@ -316,7 +325,7 @@
                       <span class="visually-hidden">Минус.</span>
                     </button>
                     <input class="modal-children-input  modal-number-input" id="modal-imput-children" type="number"
-                      name="count-children" min="0" max="99" step="1" value="0">
+                      name="count-children" min="0" max="99" step="1" value="1">
                     <button class="modal-number-button modal-number-button-max" type="button">
                       <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"
                         aria-hidden="true">

@@ -1801,6 +1801,21 @@ img {
   line-height: 26px;
 }
 
+.modal-label-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 575px;
+}
+
 .modal-label {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1831,10 +1846,20 @@ img {
   background-color: #f2f2f2;
   border-radius: 4px;
   margin: 0;
-  background-image: url("../images/modal/date-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center right 17px;
-  opacity: 0.6;
+}
+
+.modal-date-wrapper {
+  position: relative;
+}
+
+.modal-date-wrapper::after {
+  position: absolute;
+  content: url("../images/modal/date-icon.svg");
+  width: 15px;
+  height: 15px;
+  display: block;
+  top: 18px;
+  right: 19px;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
