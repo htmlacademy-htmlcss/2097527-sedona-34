@@ -1887,32 +1887,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .modal-date:focus {
-  background-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 0 0 3px #83b3d3;
-  box-shadow: inset 0 0 0 3px #83b3d3;
-  outline: none;
+  background: #e6e6e6;
+  outline: 3px solid #83b3d3;
 }
 
-.modal-date:not(:-moz-placeholder-shown) {
+.modal-date:active {
   background: #ffffff;
-  box-shadow: inset 0 0 0 2px #000000;
-  outline: none;
-  opacity: 1;
-}
-
-.modal-date:not(:-ms-input-placeholder) {
-  background: #ffffff;
-  box-shadow: inset 0 0 0 2px #000000;
-  outline: none;
-  opacity: 1;
-}
-
-.modal-date:not(:placeholder-shown) {
-  background: #ffffff;
-  -webkit-box-shadow: inset 0 0 0 2px #000000;
-  box-shadow: inset 0 0 0 2px #000000;
-  outline: none;
-  opacity: 1;
+  outline: 2px solid #000000;
 }
 
 .modal-date:disabled {
