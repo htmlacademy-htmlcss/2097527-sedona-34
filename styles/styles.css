@@ -1860,6 +1860,10 @@ img {
   margin: 0;
 }
 
+.modal-date::placeholder {
+  color: #000000;
+}
+
 .modal-date-wrapper {
   position: relative;
 }
